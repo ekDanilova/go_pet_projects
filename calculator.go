@@ -14,7 +14,6 @@ func main() {
     var input1, input2 float64
     var operation string
     fmt.Scan(&input1, &input2, &operation)
-    fmt.Println(input1, input2, operation)
     switch operation {
         case Addition:
         fmt.Println(input1 + input2)
